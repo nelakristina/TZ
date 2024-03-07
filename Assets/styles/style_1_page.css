@@ -1,0 +1,59 @@
+
+
+@font-face {
+    font-family: Roboto;
+    src: url("../TZ/Roboto/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../TZ/Roboto/Roboto-Thin.ttf");
+    font-weight: 300;
+}
+
+section {
+    height: 100%;
+}
+
+.first {
+    background-image: url("../TZ/FOTO/Дизайн\ без\ названия\ \(1\)\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+.info li{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 3%;
+}
+
+div.block {
+    margin-left: 10%;
+    float: left;
+    margin-top: 5%;
+}
+
+.button {
+    background-color: black;
+    color: #F39129;
+    border: 5px solid #F39129;
+    padding: 10px 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 23px;
+    margin-top: 2%;
+}
+
+
+
