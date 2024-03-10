@@ -7,69 +7,84 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="HTML, HTM, CSS, Javascript" />
         <meta name="description" content="Technical Work" />
-        <link rel="stylesheet" href="../TZ/style_1_page.css">
-        <link rel="stylesheet" href="../TZ/header.css">
-        <link rel="stylesheet" href="../TZ/style_2_page.css">
+        <link rel="stylesheet" href="../TZ-2/Assets/styles/styles.css">
+
     </head>
     <body>
-        <header>
+        <header class="header page__header">
             <div class="container">
-                <img src="../TZ/FOTO/logo1.png" alt="The logo">
-                <nav class="li_header">
-                    <ul>
-                        <li><a href="">Feedback</a></li>
-                        <li><a href="">Case</a></li>
-                        <li><a href="">Tariff</a></li>
-                        <li>8 800-600-60-39</li>
+                <img src="../TZ-2/Assets/Images/logo.png" alt="The logo">
+                <nav class="navigation_menu">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a class="menu__item-link" href="">Feedback</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item-link" href="">Case</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item-link" href="">Tariff</a>
+                        </li>
+                        <li class="menu__item">8 800-600-60-39</li>
                     </ul>
                 </nav>
-                <div class="icon">
-                    <img src="../TZ/FOTO/🦆 icon _navigation 2_.png" alt="Navigation"></li>
-                    <img src="../TZ/FOTO/🦆 icon _pin outline_.png" alt="pin"></li>
-                    <img id="email" src="../TZ/FOTO/🦆 icon _email_.png" alt="email"></li>
+                <div class="header__icon">
+                        <img class="header__icon-item" id="navigation" src="../TZ-2/Assets/Images/icon_email_1.png" alt="Navigation">
+                        <img class="header__icon-item" id="pin" src="../TZ-2/Assets/Images/icon_navigation_2.png" alt="pin">
+                        <img class="header__icon-item" id="email" src="../TZ-2/Assets/Images/icon_pin_3.png" alt="email">
                 </div>
             </div>
         </header>
-        <section class="first">
-            <div class="block">
-                <h1>RIK ROOT</h1>
+        <section class="main-section section">
+            <div class="main-section__block">
+                <h1 class="main-section__block-title">RIK ROOT</h1>
                 <p>
-                    <ul class="info">
-                        <li>Convenient ERP system</li>
-                        <li>All transactions in one window</li>
-                        <li>Based on the experience of our own taxi fleet</li>
+                    <ul class="main-section__block-info">
+                        <li class="main-section__block-info-item">Convenient ERP system</li>
+                        <li class="main-section__block-info-item">All transactions in one window</li>
+                        <li class="main-section__block-info-item">Based on the experience of our own taxi fleet</li>
                     </ul>
                 </p>
-                <button class="button">GET DEMO-VERSION</button>
+                <button class="button main-section__block-button">GET DEMO-VERSION</button>
             </div>
         </section>
-        <section class="second">
-                <div id="h2">
-                    <h2>THE ADVANTAGES OF PARK AUTOMATION:</h2>
+        <section class="advantage-section">
+                <div class="advantage-section__header" id="h2">
+                    <h2 class="advantage-section__header-title">THE ADVANTAGES OF PARK AUTOMATION:</h2>
                 </div>
-                <div>
-                    <table class="table">
+                <div class="advantage-section__content">
+                    <table class="table advantage-section__table">
                         <tr>
-                            <td><img src="../TZ/FOTO/Vector.png" alt="Arrow below"></td>
-                            <td><img src="../TZ/FOTO/Group.png" alt="Percent"></td>
-                            <td><img src="../TZ/FOTO/Group-2.png" alt="Eye"></td>
+                            <td class="advantage-section__table-item">
+                                <img class="advantage-section__table-item-image" src="../TZ-2/Assets/Images/item_1.png" alt="Arrow below">
+                            </td>
+                            <td class="advantage-section__table-item">
+                                <img class="advantage-section__table-item-image" src="../TZ-2/Assets/Images/item_2.png" alt="Percent">
+                            </td>
+                            <td class="advantage-section__table-item">
+                                <img class="advantage-section__table-item-image" src="../TZ-2/Assets/Images/item_3.png" alt="Eye">
+                            </td>
                         </tr>
                         <tr>
-                            <td>Reducing the workload on managers and the sales department</td>
-                            <td>Simplifying calculations for drivers</td>
-                            <td>Tracking financial performance indicators of the fleet</td>
+                            <td class="advantage-section__table-item">Reducing the workload on managers and the sales department</td>
+                            <td class="advantage-section__table-item">Simplifying calculations for drivers</td>
+                            <td class="advantage-section__table-item">Tracking financial performance indicators of the fleet</td>
                         </tr>
                         <tr>
-                            <td><img src="../TZ/FOTO/Vector-2.png" alt="Navigation"></td>
-                            <td><img src="../TZ/FOTO/Group-3.png" alt="Settings"></td>
+                            <td class="advantage-section__table-item">
+                                <img class="advantage-section__table-item-image" src="../TZ-2/Assets/Images/item_4.png" alt="Navigation">
+                            </td>
+                            <td class="advantage-section__table-item">
+                                <img class="advantage-section__table-item-image" src="../TZ-2/Assets/Images/item_5.png" alt="Settings">
+                            </td>
                         </tr>
                         <tr>
-                            <td>Automatically sending notifications to drivers via messenger</td>
-                            <td>Configuring individual working conditions for each driver</td>
+                            <td class="advantage-section__table-item">Automatically sending notifications to drivers via messenger</td>
+                            <td class="advantage-section__table-item">Configuring individual working conditions for each driver</td>
                         </tr>
                     </table>
-                    <img id="line" src="../TZ/FOTO/Line 1.png" alt="Line">
-                    <img id="car" src="../TZ/FOTO/111 (1) 1.png" alt="Car">
+                    <img id="line" src="../TZ-2/Assets/Images/line.png" alt="Line">
+                    <img id="car" src="../TZ-2/Assets/Images/car.png" alt="Car">
                 </div>
         </section>
     </body>

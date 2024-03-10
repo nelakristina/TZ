@@ -1,11 +1,6 @@
 
-@font-face {
-    font-family: Roboto;
-    src: url("../TZ/Roboto/Roboto-Regular.ttf");
-    font-weight: 400;
-}
 
-header {
+.header {
     background-color: D9D9D9;
     color: black;
     font-family: Roboto;
@@ -18,23 +13,23 @@ header {
     position: relative;
 }
 
-.li_header {
+.navigation_menu{
     float: right;
     position: absolute;
     left: 50%;
 }
 
-.li_header ul{
+.menu{
     list-style: none;
     padding: 0%;
 }
 
-.li_header ul li {
+.menu__item{
     display: inline-flex;
     margin-right: 40px;
 }
 
-nav ul li a {
+.menu__item-link {
     list-style-type: none;
     text-decoration: none;
     color: black;
@@ -47,14 +42,14 @@ nav ul li a {
     width: 100%;
 }
 
-.icon {
+.header__icon {
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
     margin-right: 5%;
 }
 
-.icon img {
+.header__icon-item {
     width: 45%;
     height: 60%;
     margin-right: 5%;

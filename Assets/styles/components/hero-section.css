@@ -1,0 +1,36 @@
+
+
+section {
+    height: 100%;
+}
+
+.main-section {
+    background-image: url("../../Images/background_1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-section__block-title {
+    font-family: Roboto;
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+.main-section__block-info-item{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 3%;
+}
+
+.main-section__block {
+    margin-left: 10%;
+    float: left;
+    margin-top: 5%;
+}
+
+
+
+
+

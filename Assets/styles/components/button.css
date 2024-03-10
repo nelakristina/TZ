@@ -1,0 +1,13 @@
+
+.main-section__block-button {
+    background-color: black;
+    color: #F39129;
+    border: 5px solid #F39129;
+    padding: 10px 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 23px;
+    margin-top: 2%;
+}
