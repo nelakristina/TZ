@@ -12,13 +12,11 @@ section {
 }
 
 .main-section__block-title {
-    font-family: Roboto;
     font-size: 100px;
     font-weight: 700;
     margin-bottom: 0%;
 }
 .main-section__block-info-item{
-    font-family: Roboto;
     font-weight: 300;
     font-size: 30px;
     padding-top: 3%;

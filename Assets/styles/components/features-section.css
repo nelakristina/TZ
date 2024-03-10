@@ -7,7 +7,6 @@
 }
 
 .advantage-section__header-title {
-    font-family: Roboto;
     font-size: 60px;
     font-weight: 700;
     width: 600px;
@@ -23,7 +22,6 @@
 
 .advantage-section__table {
     width: 90%;
-    font-family: Roboto;
     font-size: 25px;
 } 
 
