@@ -23,7 +23,6 @@ body {
 
 .menu{
     list-style: none;
-    padding: 0%;
 }
 
 .menu__item{
@@ -32,7 +31,6 @@ body {
 }
 
 .menu__item-link {
-    list-style-type: none;
     text-decoration: none;
     color: black;
     padding: 0 20px;
